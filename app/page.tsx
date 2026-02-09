@@ -1,7 +1,10 @@
+
+
 export default function Page() {
     return (
         <>
             <div className="container">
+                <img src="/dudu-hearts.gif" alt=""/>
                 <form action="">
                     <button>1</button>
                     <button>2</button>
