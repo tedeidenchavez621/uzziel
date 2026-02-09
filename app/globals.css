@@ -33,5 +33,64 @@ body {
   background-color: white;
   border-radius: 20px;
   box-shadow: 10px 10px 20px rgba(5, 5, 20, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
+.anniversary {
+  display: grid;
+  grid-template-areas:
+  "one two three"
+  "four five six"
+  "seven eight nine"
+  "zero zero zero";
+  grid-template-columns: auto;
+  width: 75vw;
+  gap: 5px;
+}
+.anniversary button {
+  border-radius: 5px;
+  background-color: pink;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  transition: ease-in 0.2s;
+}
+.anniversary button:active {
+  transform: scale(0.75);
+  background-color: purple;
+  box-shadow: inset 0 3px 5px rgba(0,0,0,0.2);
+}
+#one {
+  grid-area: one;
+}
+#two {
+  grid-area: two;
+}
+#three {
+  grid-area: three;
+}
+#four {
+  grid-area: four;
+}
+#five {
+  grid-area: five;
+}
+#six {
+  grid-area: six;
+}
+#seven {
+  grid-area: seven;
+}
+#eight {
+  grid-area: eight;
+}
+#nine {
+  grid-area: nine;
+}
+#zero {
+  grid-area: zero;
+}
