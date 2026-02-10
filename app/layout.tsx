@@ -17,7 +17,9 @@ export default function DashboardLayout({
     return (
         <html lang="en">
             <body>
-                <main>{children}</main>
+                <div className="container">
+                    <main>{children}</main>
+                </div>
             </body>
         </html>
     )
