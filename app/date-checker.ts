@@ -7,5 +7,7 @@ export async function checkDate(FormData: FormData) {
 
     if(inputDate === '12-24-2025') {
         redirect('/greet')
+    } else {
+        redirect('/');
     }
 }

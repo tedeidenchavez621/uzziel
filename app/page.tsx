@@ -19,7 +19,7 @@ export default function Page() {
     return (
         <>
             <dialog ref={dialogRef} className="greetings">
-                <p>HAPPY VALENTINES UZZIEL! ❤️</p>
+                <h2>Advanced Happy</h2> <h2>Valentines Uzziel! ❤️</h2>
                 <img src="/dudu-hearts-2.gif" alt="dudu hearts"/>
                 <p>Please enter our anniversary to continue!</p>
                 <button onClick={closeModal} className="submit">CONTINUE</button>

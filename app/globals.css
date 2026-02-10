@@ -46,6 +46,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  text-align: center;
 }
 .anniversary {
   display: grid;
@@ -148,6 +149,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 10px;
+  text-align: center;
 
   transition:
           opacity 0.3s ease,
