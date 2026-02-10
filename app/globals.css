@@ -31,10 +31,14 @@ body {
   justify-content: center;
   height: 100dvh;
   width: 100dvw;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 1rem;
+  color: #c2185b;
 }
 .container {
+  padding: 20px;
   width: 90vw;
-  height: 60vh;
+  height: fit-content;
   background-color: white;
   border-radius: 20px;
   box-shadow: 10px 10px 20px rgba(5, 5, 20, 0.2);
