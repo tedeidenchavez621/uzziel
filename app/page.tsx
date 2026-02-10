@@ -19,14 +19,16 @@ export default function Page() {
     return (
         <>
             <dialog ref={dialogRef} className="greetings">
-                <h2>HAPPY VALENTINES UZZIEL! ❤️</h2>
-                <p>Please enter our special date to continue.</p>
-                <button onClick={closeModal}>CONTINUE</button>
+                <p>HAPPY VALENTINES UZZIEL! ❤️</p>
+                <img src="/dudu-hearts-2.gif" alt="dudu hearts"/>
+                <p>Please enter our anniversary to continue!</p>
+                <button onClick={closeModal} className="submit">CONTINUE</button>
             </dialog>
 
-            <img src="/dudu-hearts.gif" alt=""/>
+            <img src="/dudu-hearts.gif" alt="dudu hearts"/>
+            <p>Do it in this format: mm-dd-yyyy ❤️</p>
             <form action={ checkDate } className="anniversary" id="anniversary" >
-                <input type="text" id="anniversary-date" value={inputValue} name="anniversaryDate"/>
+                <input type="text" id="anniversary-date" value={inputValue} name="anniversaryDate" readOnly />
                 <button type="button" id="one" onClick={() => handleNumberClick("1")}>1</button>
                 <button type="button" id="two" onClick={() => handleNumberClick("2")}>2</button>
                 <button type="button" id="three" onClick={() => handleNumberClick("3")}>3</button>
