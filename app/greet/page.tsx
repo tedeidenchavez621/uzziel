@@ -1,7 +1,7 @@
 'use client';
 import React from 'react';
 
-const Page = () => {
+const Welcome = () => {
 
     return (
         <>
@@ -18,4 +18,4 @@ const Page = () => {
     );
 }
 
-export default Page;
+export default Welcome;

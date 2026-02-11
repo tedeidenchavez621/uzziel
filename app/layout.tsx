@@ -3,10 +3,10 @@ import React from "react";
 import { SpeedInsights } from "@vercel/speed-insights/next"
 
 // 1. Import Parisienne from Google Fonts
-import {Kaushan_Script, Parisienne} from 'next/font/google';
+import {Kaushan_Script} from 'next/font/google';
 
 // 2. Configure the font
-const parisienne = Kaushan_Script({
+const kaushanScript = Kaushan_Script({
     weight: '400',
     subsets: ['latin'],
     display: 'swap',
@@ -28,10 +28,11 @@ export default function DashboardLayout({
     return (
         <html lang="en">
         {/* We removed the <link> tags because next/font handles it now! */}
-        <body className={parisienne.className}>
+        <body className={kaushanScript.className}>
         <div className="container">
             <main>{children}</main>
         </div>
+        <SpeedInsights />
         </body>
         </html>
     )
