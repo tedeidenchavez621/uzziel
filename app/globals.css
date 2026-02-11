@@ -189,3 +189,13 @@ body {
     backdrop-filter: blur(0px);
   }
 }
+.yes {
+  background-color: var(--submit-button-color);
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  width: 200px;
+  color: white;
+  margin: 15px;
+  font-size: 1.2rem;
+}
