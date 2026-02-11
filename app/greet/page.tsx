@@ -1,6 +1,7 @@
 'use client';
 import React from 'react';
 import { useRef } from 'react';
+import { useRouter } from "next/navigation";
 
 const Welcome = () => {
     const tryAgainDialog = useRef<HTMLDialogElement>(null);
@@ -8,6 +9,7 @@ const Welcome = () => {
     async function showTryAgainDialog() {
         tryAgainDialog.current?.showModal();
     }
+    const router = useRouter();
     return (
         <>
             <dialog ref={tryAgainDialog} className="greetings">
@@ -19,7 +21,7 @@ const Welcome = () => {
             <img src="/dudu-arrow.gif" alt="dudu arrow"/>
             <h3>Will You be my Valentine?</h3>
             <h3>🥺👉👈</h3>
-            <form action="">
+            <form action="/celebrate">
                 <button className="yes">
                     YES
                 </button>
