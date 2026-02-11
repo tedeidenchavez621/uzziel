@@ -1,5 +1,7 @@
 import './globals.css';
 import React from "react";
+import { SpeedInsights } from "@vercel/speed-insights/next"
+
 // 1. Import Parisienne from Google Fonts
 import {Kaushan_Script, Parisienne} from 'next/font/google';
 
