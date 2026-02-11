@@ -7,8 +7,7 @@ const Page = () => {
 
     return (
         <>
-            <div>Greeting Page! 🎉</div>
-
+            <img src="/dudu-arrow.gif" alt="dudu arrow"/>
             <button type="button" onClick={() => router.back()}>
                 Go Back
             </button>
