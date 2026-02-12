@@ -1,7 +1,7 @@
 .card {
     width: 95%;
     background-color: #F9D7D6;
-    margin: 10px auto;
+    margin: 5px auto;
     height: fit-content;
     padding: 10px;
     border-radius: 10px;
@@ -32,7 +32,6 @@
     grid-area: description;
     background-color: var(--button-color);
     color: white;
-    padding: 15px;
+    padding: 10px;
     border-radius: 10px;
-
 }

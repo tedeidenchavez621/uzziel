@@ -20,11 +20,23 @@ const Page = () => {
                 </button>
             </dialog>
             <Card
+                image={<img src="/dudu-bike.gif" alt=""/>}
+                date={
+                    <>
+                        <h3>FEB. 14, 2026</h3>
+                        <p>12:00 - 12:30PM</p>
+                    </>
+                }
+                description={
+                    <p>I'll arrive at your place</p>
+                }
+            />
+            <Card
                 image={<img src="/dudu-bubu-eating.gif" alt="dudu-thinking"/>}
                 date={
                     <>
                         <h3>FEB. 14, 2026</h3>
-                        <p>1:00 PM to 2:00 PM</p>
+                        <p>1:00 - 2:00 PM</p>
                     </>
                 }
                 description={
@@ -33,8 +45,29 @@ const Page = () => {
             />
             <Card
                 image={<img src="/DUDU-BUBU-HAPPY.gif" alt=""/>}
-                date={<h3> feb 14 2:30 PM - 3:00 PM</h3>}
+                date={
+                    <>
+                        <h3>FEB. 14, 2026</h3>
+                        <p>2:30 - 3:30 PM</p>
+                    </>
+                }
                 description={<p>Testing of Eirenia Scents  </p>}
+            />
+            <Card
+                image={<img src="/dudu-bubu-spending-time.gif" alt=""/>}
+                date={
+                    <>
+                        <h3>FEB. 14, 2026</h3>
+                        <p>3:30 onwards spending time 💖💗🥰💞</p>
+                    </>
+                }
+                description={
+                    <>
+                        <form action="/finish">
+                            <button className="submit">CONTINUE</button>
+                        </form>
+                    </>
+                }
             />
         </>
     )

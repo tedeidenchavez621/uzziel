@@ -7,6 +7,7 @@ const Celebrate = () => {
         <>
             <img src="/dudu-happy-2.gif" alt="happy dudu"/>
             <h2>YEY! I love you 💖💗🥰💞</h2>
+            <br />
             <Link href="/plan">
                 <button className="submit">
                     CONTINUE
