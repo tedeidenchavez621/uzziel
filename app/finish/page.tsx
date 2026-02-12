@@ -8,7 +8,7 @@ const Page = () => {
             <img src="/tuzzie.jpg"  alt="us" className="us"/>
             <h2>See You my Love! </h2>
             <h1>💕🎀🌸🩷💗</h1>
-            <form action="/" method="POST">
+            <form action="uzziel-teddy.vercel.app" method="POST">
                 <br/>
                 <button className="submit">GO BACK TO START</button>
             </form>
