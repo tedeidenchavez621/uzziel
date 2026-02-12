@@ -34,7 +34,7 @@ const Page = () => {
             <Card
                 image={<img src="/DUDU-BUBU-HAPPY.gif" alt=""/>}
                 date={<h3> feb 14 2:30 PM - 3:00 PM</h3>}
-                description={<p>Testing of Scents  </p>}
+                description={<p>Testing of Eirenia Scents  </p>}
             />
         </>
     )
