@@ -21,10 +21,20 @@ const Page = () => {
             </dialog>
             <Card
                 image={<img src="/dudu-bubu-eating.gif" alt="dudu-thinking"/>}
-                date={<h3>1:00 PM</h3>}
-                description={
-                <p>We'll eat lunch at <b>La Berean Cafe</b></p>
+                date={
+                    <>
+                        <h3>FEB. 14, 2026</h3>
+                        <p>1:00 PM to 2:00 PM</p>
+                    </>
                 }
+                description={
+                <p>We'll eat lunch at <b>La Berean's Cafe</b></p>
+                }
+            />
+            <Card
+                image={<img src="/DUDU-BUBU-HAPPY.gif" alt=""/>}
+                date={<h3> feb 14 2:30 PM - 3:00 PM</h3>}
+                description={<p>Testing of Scents  </p>}
             />
         </>
     )
