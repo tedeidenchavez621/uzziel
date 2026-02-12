@@ -20,7 +20,7 @@ const Page = () => {
                 </button>
             </dialog>
             <Card
-                image={<img src="/dudu-thinking.gif" alt="dudu-thinking"/>}
+                image={<img src="/dudu-bubu-eating.gif" alt="dudu-thinking"/>}
                 date={<h3>1:00 PM</h3>}
                 description={
                 <p>We'll eat lunch at <b>La Berean Cafe</b></p>
